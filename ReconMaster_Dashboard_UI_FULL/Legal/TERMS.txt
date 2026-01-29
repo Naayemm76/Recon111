@@ -1,0 +1,77 @@
+RECONMASTER – NUTZUNGSBEDINGUNGEN (AGB)
+
+Stand: 2026-01-24
+
+1. Geltungsbereich
+Diese Nutzungsbedingungen regeln die Nutzung der Software „ReconMaster“ (nachfolgend „Software“) durch registrierte, zahlende Kunden (nachfolgend „Nutzer“). Die Software ist ausschließlich für rechtmäßige Sicherheitsprüfungen in eigener Umgebung oder mit nachweislicher, schriftlicher Autorisierung des Rechteinhabers bestimmt.
+
+2. Definitionen
+2.1 „Ziel“: Eine Domain/URL, ein lokaler Ordner, ein Archiv (ZIP) oder ein lokales Funk-/Geräte‑Ziel (z. B. WLAN/Bluetooth/NFC) innerhalb des zulässigen Scopes.
+2.2 „Scope“: Der ausdrücklich erlaubte Prüfbereich (Ziel(e), Zeitfenster, Testarten, Limits).
+2.3 „Analyse“: Nicht-intrusive oder risikoarme Prüfungen (z. B. Erkennung, Fingerprinting, Konfiguration, Passivchecks, Artefakt‑Analyse).
+2.4 „Hochrisiko‑Funktionen“: Funktionen, die Systeme beeinträchtigen können (z. B. Exploit-/Payload‑Funktionen, Brute‑Force, Denial‑of‑Service, Credential‑Capture, Social Engineering).
+
+3. Zugang, Accounts und Rollen
+3.1 Zugang erhalten ausschließlich Nutzer, die durch den Admin manuell verifiziert und freigeschaltet wurden.
+3.2 Rollenmodell (Kurzüberblick, Details siehe ROLE_MATRIX.txt):
+- Admin: Vollzugriff, Rollenzuweisung, Freigaben, Audit.
+- Sub‑Admin: Rollenzuweisung im erlaubten Rahmen, Auswertungen.
+- Moderator: Bearbeitung von Anfragen, Einsicht in Anträge/Status, keine Toolausführung.
+- Security Manager: Projektübersicht, Live‑Monitoring, Reports (nach Rolle).
+- Self Tester / Self Attacked: Analyse innerhalb eines vorgegebenen Ziels, ohne Hochrisiko‑Funktionen.
+3.3 Zielanzahl je Rolle kann begrenzt sein (z. B. 1 Ziel, optional bis 3 Ziele nach Upgrade/Freigabe).
+
+4. Zulässige Nutzung und Verbotene Nutzung
+4.1 Zulässig ist ausschließlich die Nutzung im eigenen Unternehmen/Netzwerk oder mit ausdrücklicher, nachweisbarer Autorisierung des Rechteinhabers.
+4.2 Verboten sind insbesondere:
+a) Tests außerhalb des Scopes, an Dritten oder an fremden Systemen ohne Autorisierung.
+b) Automatisierte oder verdeckte Nutzung zur Schädigung, Störung, Erpressung oder unbefugten Datenbeschaffung.
+c) Social Engineering, Phishing, Credential‑Theft, Malware‑Verteilung, DoS/DDoS‑Angriffe ohne explizite, dokumentierte Autorisierung.
+d) Umgehung von Zugriffskontrollen, wenn diese Handlung außerhalb des erlaubten Testauftrags liegt.
+e) Nutzung zum Zweck der Rechtsverletzung oder zur Verletzung von Datenschutz‑/Urheberrechten.
+
+5. Hochrisiko‑Funktionen: Zusätzliche Verifikation und Admin‑Freigabe
+5.1 Hochrisiko‑Funktionen sind standardmäßig gesperrt.
+5.2 Freischaltung erfolgt nur nach:
+a) Doppelter Nutzer‑Verifikation (Identität + Rechteinhaber‑Nachweis) und
+b) Sichtprüfung durch den Admin sowie
+c) Dokumentierter Zustimmung zu den Hochrisiko‑Hinweisen.
+5.3 Als Nachweise können verlangt werden (Beispiele):
+- Handelsregisterauszug / Unternehmensnachweis,
+- schriftliche Beauftragung/Letter of Authorization,
+- Ausweisprüfung des Verantwortlichen,
+- technische Eigentumsnachweise (z. B. DNS‑TXT Challenge).
+5.4 Bis zur Freischaltung verbleibt der Nutzer in Warteschleife; es werden nur erlaubte Analyse‑Funktionen bereitgestellt.
+
+6. Risiko‑Hinweis / Eigenverantwortung
+6.1 Sicherheitsprüfungen können Systeme beeinflussen (z. B. Verfügbarkeit, Performance, Datenintegrität). Dies gilt insbesondere für Hochrisiko‑Funktionen.
+6.2 Der Nutzer bestätigt, dass er die Risiken versteht und ausschließlich innerhalb des Scopes handelt. Der Nutzer ist verantwortlich für Backups, Rollback‑Pläne und interne Freigaben.
+
+7. Logging, Audit‑Trail und Transparenz
+7.1 Die Software führt Audit‑Logs über Projekte, Ziele, Status, Freigaben, Nutzeraktionen und Systemmeldungen.
+7.2 Logs dienen dem Nachweis rechtmäßiger Nutzung, Fehlersuche, Support und Compliance.
+7.3 Der Nutzer akzeptiert, dass bestimmte Aktionen nur mit aktivem Logging möglich sind.
+
+8. Datenschutz und Datenverarbeitung
+8.1 Es werden nur die zur Bereitstellung der Software notwendigen Daten verarbeitet (Account‑Daten, Projekt‑Metadaten, Logs, Reports).
+8.2 Inhalte aus lokalen Analysen (Ordner/ZIP) verbleiben grundsätzlich lokal, sofern nicht ausdrücklich für Support übertragen.
+8.3 Der Nutzer stellt sicher, dass er für das Scannen/Verarbeiten personenbezogener Daten rechtmäßig berechtigt ist.
+
+9. Updates, Lizenz und Sperrung
+9.1 Die Software kann sicherheitsrelevante Updates erzwingen, bevor bestimmte Funktionen genutzt werden.
+9.2 Der Admin kann Accounts sperren, Rollen herabstufen oder Projekte schließen, wenn Missbrauchsverdacht besteht.
+
+10. Gewährleistung und Haftung
+10.1 Die Software wird „wie besehen“ bereitgestellt. Es besteht kein Anspruch auf jederzeitige Verfügbarkeit.
+10.2 Für leichte Fahrlässigkeit haften Anbieter/Betreiber nur bei Verletzung wesentlicher Vertragspflichten und begrenzt auf typische, vorhersehbare Schäden. Im Übrigen gilt gesetzliche Haftung bei Vorsatz/grober Fahrlässigkeit sowie bei Personenschäden.
+
+11. Freistellung
+Der Nutzer stellt Anbieter/Betreiber von Ansprüchen Dritter frei, die aus rechtswidriger Nutzung der Software entstehen.
+
+12. Schlussbestimmungen
+12.1 Es gilt deutsches Recht, sofern zwingende Verbraucherschutzvorschriften nicht entgegenstehen.
+12.2 Gerichtsstand ist, soweit zulässig, der Sitz des Anbieters.
+12.3 Sollten einzelne Bestimmungen unwirksam sein, bleibt der Vertrag im Übrigen wirksam.
+
+Akzeptanz:
+Mit Aktivierung der Checkbox „Ich akzeptiere die Bedingungen“ bestätigt der Nutzer diese Nutzungsbedingungen.

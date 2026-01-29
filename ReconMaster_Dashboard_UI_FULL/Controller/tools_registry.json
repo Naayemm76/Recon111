@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "scan",
+      "label_de": "Pen Test / Scanning / Enumeration",
+      "label_en": "Pen Test / Scanning / Enumeration",
+      "tools": [
+        {
+          "id": "scan_surface",
+          "name": "Surface & Asset Discovery",
+          "risk": "low",
+          "target_types": [
+            "domain"
+          ],
+          "min_role": "self_tester"
+        },
+        {
+          "id": "scan_headers",
+          "name": "Security Headers & TLS Audit",
+          "risk": "low",
+          "target_types": [
+            "domain"
+          ],
+          "min_role": "self_tester"
+        },
+        {
+          "id": "scan_dirs",
+          "name": "Directory & Endpoint Discovery",
+          "risk": "medium",
+          "target_types": [
+            "domain"
+          ],
+          "min_role": "self_attacked"
+        }
+      ]
+    },
+    {
+      "id": "forensics",
+      "label_de": "Forensics / Recovery / Analysis",
+      "label_en": "Forensics / Recovery / Analysis",
+      "tools": [
+        {
+          "id": "file_hashes",
+          "name": "File Hashing & Integrity",
+          "risk": "low",
+          "target_types": [
+            "folder",
+            "zip"
+          ],
+          "min_role": "self_tester"
+        },
+        {
+          "id": "artifact_extract",
+          "name": "Artifact Extraction (safe)",
+          "risk": "low",
+          "target_types": [
+            "folder",
+            "zip"
+          ],
+          "min_role": "self_tester"
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label_de": "Crypto / Hash / Passwords",
+      "label_en": "Crypto / Hash / Passwords",
+      "tools": [
+        {
+          "id": "hash_ident",
+          "name": "Hash Identification",
+          "risk": "low",
+          "target_types": [
+            "folder",
+            "zip"
+          ],
+          "min_role": "self_attacked"
+        }
+      ]
+    },
+    {
+      "id": "network",
+      "label_de": "Network / Traffic",
+      "label_en": "Network / Traffic",
+      "tools": [
+        {
+          "id": "net_passive",
+          "name": "Passive Traffic Capture (local)",
+          "risk": "medium",
+          "target_types": [
+            "network"
+          ],
+          "min_role": "security_manager"
+        }
+      ]
+    },
+    {
+      "id": "wireless",
+      "label_de": "Wireless / Geräte",
+      "label_en": "Wireless / Devices",
+      "tools": [
+        {
+          "id": "wireless_scan",
+          "name": "Wireless Discovery (passive)",
+          "risk": "medium",
+          "target_types": [
+            "wifi",
+            "bluetooth",
+            "nfc"
+          ],
+          "min_role": "security_manager"
+        }
+      ]
+    },
+    {
+      "id": "high_risk",
+      "label_de": "Hochrisiko-Module (gesperrt)",
+      "label_en": "High-Risk Modules (locked)",
+      "tools": [
+        {
+          "id": "hr_exploit_placeholder",
+          "name": "High-Risk Security Validation Module",
+          "risk": "high",
+          "target_types": [
+            "domain",
+            "network",
+            "wifi",
+            "bluetooth"
+          ],
+          "min_role": "admin",
+          "locked": true
+        }
+      ]
+    }
+  ],
+  "roles_order": [
+    "viewer",
+    "self_tester",
+    "self_attacked",
+    "security_manager",
+    "moderator",
+    "sub_admin",
+    "admin"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+    "macchanger": {
+        "category": "Network Tools",
+        "description": "Spoof the MAC address of a network interface.",
+        "command": "macchanger -r {interface}"
+    },
+    "proxychains": {
+        "category": "Proxy & Anonymity",
+        "description": "Route traffic through proxy servers for anonymity.",
+        "command": "proxychains curl {target}"
+    },
+    "traceroute": {
+        "category": "Network Discovery",
+        "description": "Discover the path packets take to reach a target.",
+        "command": "traceroute {target}"
+    },
+    "whatweb": {
+        "category": "Web Analysis",
+        "description": "Identify web technologies.",
+        "command": "whatweb -v {target}"
+    },
+    "whois": {
+        "category": "Reconnaissance",
+        "description": "Obtain domain and registrant info.",
+        "command": "whois {target}"
+    },
+    "maltego": {
+        "category": "OSINT & Link Analysis",
+        "description": "Perform link analysis using OSINT.",
+        "command": "maltego"
+    },
+    "nmap": {
+        "category": "Vulnerability Scanning",
+        "description": "Network scanning and enumeration.",
+        "command": "nmap -A -T4 {target}"
+    },
+    "dirb": {
+        "category": "Web Directory Brute Force",
+        "description": "Brute-force directories/files on web servers.",
+        "command": "dirb http://{target}"
+    },
+    "nikto": {
+        "category": "Web Vulnerability Scanner",
+        "description": "Scan webservers for vulnerabilities.",
+        "command": "nikto -h http://{target}"
+    },
+    "sqliv": {
+        "category": "SQL Injection Testing",
+        "description": "Automated SQL injection scanner.",
+        "command": "python3 sqliv.py -u 'http://{target}/page.php?id=1'"
+    },
+    "burpsuite": {
+        "category": "Web Security Testing",
+        "description": "Web app security testing toolkit.",
+        "command": "burpsuite"
+    },
+    "zap": {
+        "category": "Web Vulnerability Scanner",
+        "description": "OWASP ZAP Proxy and Scanner.",
+        "command": "zap"
+    },
+    "httrack": {
+        "category": "Site Mirroring",
+        "description": "Mirror entire websites locally.",
+        "command": "httrack http://{target} -O ./mirrored"
+    },
+    "wpscan": {
+        "category": "CMS Scanning",
+        "description": "Scan WordPress sites.",
+        "command": "wpscan --url http://{target}"
+    },
+    "sqlmap": {
+        "category": "Database Testing",
+        "description": "Automate SQL injection.",
+        "command": "sqlmap -u 'http://{target}/page.php?id=1' --dbs"
+    },
+    "hash-identifier": {
+        "category": "Password & Hash Tools",
+        "description": "Identify types of hashes.",
+        "command": "hash-identifier"
+    },
+    "crunch": {
+        "category": "Password List Generator",
+        "description": "Create custom wordlists.",
+        "command": "crunch 4 6 abcdef -o wordlist.txt"
+    },
+    "john": {
+        "category": "Password Cracking",
+        "description": "Password cracker.",
+        "command": "john password.txt"
+    },
+    "hydra": {
+        "category": "Brute Force",
+        "description": "Brute-force login services.",
+        "command": "hydra -l admin -P passwords.txt ftp://{target}"
+    },
+    "aircrack-ng": {
+        "category": "Wireless Hacking",
+        "description": "Wi-Fi auditing toolkit.",
+        "command": "airmon-ng"
+    },
+    "fluxion": {
+        "category": "Wireless Attacks",
+        "description": "WPA phishing attack tool.",
+        "command": "bash fluxion/fluxion.sh"
+    },
+    "setoolkit": {
+        "category": "Social Engineering",
+        "description": "Perform social engineering attacks.",
+        "command": "setoolkit"
+    },
+    "metasploit-framework": {
+        "category": "Exploitation",
+        "description": "Exploit development and delivery.",
+        "command": "msfconsole"
+    },
+    "wireshark": {
+        "category": "Sniffing & Protocol Analysis",
+        "description": "Network protocol analyzer.",
+        "command": "wireshark"
+    },
+    "bettercap": {
+        "category": "MITM & Network Tools",
+        "description": "Powerful MITM attack framework.",
+        "command": "bettercap -iface eth0"
+    }
+}

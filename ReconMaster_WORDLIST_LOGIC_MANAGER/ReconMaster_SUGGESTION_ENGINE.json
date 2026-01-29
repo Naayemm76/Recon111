@@ -1,0 +1,23 @@
+{
+    "if_subdomain_found": [
+        "subfinder",
+        "amass"
+    ],
+    "if_js_links_found": [
+        "arjun",
+        "ffuf"
+    ],
+    "if_auth_detected": [
+        "hydra",
+        "burpsuite"
+    ],
+    "if_api_pattern": [
+        "nuclei",
+        "burpsuite",
+        "ffuf"
+    ],
+    "if_large_params": [
+        "sqlmap",
+        "ffuf"
+    ]
+}

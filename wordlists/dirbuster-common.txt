@@ -1,0 +1,5 @@
+/admin
+/login
+/config
+/uploads
+api

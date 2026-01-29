@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="/static/css/app.css"/>
+  <title>ReconMaster</title>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand">ReconMaster</div>
+      <div class="top-actions">
+        <a class="btn ghost" href="/">Logout</a>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <h2>Neues Projekt</h2>
+        <form id="createForm" class="form">
+          <label>Name
+            <input name="name" placeholder="z.B. Q1 Self-Assessment" required>
+          </label>
+
+          <label>Ziel-Typ
+            <select name="target_type" required>
+              <option value="domain">Domain / URL</option>
+              <option value="folder">Ordner (lokal)</option>
+              <option value="zip">ZIP (Dateistruktur)</option>
+              <option value="wifi">WiFi (vor Ort)</option>
+              <option value="device">Gerät / Netzwerk</option>
+              <option value="bluetooth">Bluetooth</option>
+            </select>
+          </label>
+
+          <label>Ziel
+            <input name="target_value" placeholder="z.B. https://example.com oder /pfad/zum/ordner" required>
+          </label>
+
+          <button class="btn primary" type="submit">Projekt anlegen</button>
+        </form>
+        <pre id="createOut" class="mono out"></pre>
+      </section>
+
+      <section class="card">
+        <h2>Import (manuell)</h2>
+        <p class="muted">Hier importierst du Ergebnisse von extern ausgeführten Tools. Keine automatische Ausführung im Tool.</p>
+        <form id="importForm" class="form">
+          <label>Project ID
+            <input name="project_id" placeholder="proj_..." required>
+          </label>
+          <label>Importer
+            <select name="importer" required>
+              <option value="nmap_xml">Nmap XML</option>
+              <option value="lines">Text/Lines (generic)</option>
+            </select>
+          </label>
+          <label>Result File
+            <input type="file" name="file" required>
+          </label>
+          <button class="btn" type="submit">Importieren</button>
+        </form>
+        <pre id="importOut" class="mono out"></pre>
+      </section>
+
+      <section class="card full">
+        <h2>Projekte</h2>
+        <button id="refresh" class="btn ghost">Aktualisieren</button>
+        <div id="projects" class="list"></div>
+      </section>
+    </main>
+  </div>
+
+<script>
+async function refresh(){
+  const r = await fetch('/api/projects/list');
+  const j = await r.json();
+  const wrap = document.getElementById('projects');
+  wrap.innerHTML = '';
+  (j.projects||[]).forEach(p=>{
+    const d=document.createElement('div');
+    d.className='row';
+    d.innerHTML = `<div class="row-main">
+      <div class="row-title">${p.name||p.id}</div>
+      <div class="row-sub">ID: ${p.id} · Target: ${(p.target&&p.target.type)||''} ${(p.target&&p.target.value)||''} · Status: ${p.status}</div>
+    </div>`;
+    wrap.appendChild(d);
+  });
+}
+document.getElementById('refresh').addEventListener('click', refresh);
+
+document.getElementById('createForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const fd=new FormData(e.target);
+  const r=await fetch('/api/projects/create',{method:'POST',body:fd});
+  const j=await r.json();
+  document.getElementById('createOut').textContent=JSON.stringify(j,null,2);
+  await refresh();
+});
+
+document.getElementById('importForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const fd=new FormData();
+  const pid=e.target.project_id.value;
+  fd.append('importer', e.target.importer.value);
+  fd.append('f', e.target.file.files[0]);
+  const r=await fetch(`/api/projects/${pid}/import`,{method:'POST',body:fd});
+  const j=await r.json();
+  document.getElementById('importOut').textContent=JSON.stringify(j,null,2);
+});
+
+refresh();
+</script>
+</body>
+</html>

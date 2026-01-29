@@ -1,0 +1,15 @@
+﻿__pycache__/
+.venv/
+*.zip
+*.rar
+*.7z
+*.exe
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.psd
+*.log
+*.sqlite
+node_modules/
+.env

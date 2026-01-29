@@ -1,0 +1,1 @@
+This folder is part of the config module for ReconMaster PRO v2.0

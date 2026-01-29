@@ -1,0 +1,10 @@
+{
+    "admin": {
+        "role": "admin",
+        "password_hash": "admin123_hashed"
+    },
+    "operator": {
+        "role": "operator",
+        "password_hash": "operator123_hashed"
+    }
+}

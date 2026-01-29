@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>ReconMaster – Login</title>
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+  <div class="card">
+    <h1>ReconMaster</h1>
+    <p class="muted">Secure Assessment Workspace</p>
+
+    {% if error %}<div class="error">{{ error }}</div>{% endif %}
+
+    <form method="post" action="/login">
+      <label>Benutzername</label>
+      <input name="username" autocomplete="username" required>
+
+      <label>Passwort</label>
+      <input name="password" type="password" autocomplete="current-password" required>
+
+      <label class="row">
+        <input type="checkbox" name="accept_terms" value="1">
+        <span>Ich akzeptiere die Bedingungen.</span>
+      </label>
+
+      <a class="link" href="/terms" target="_blank">Bedingungen anzeigen</a>
+
+      <button type="submit">Einloggen</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Payload Smoke Test",
+  "description": "Run scanners then review payload categories.",
+  "steps": [
+    "nmap",
+    "nuclei",
+    "Review Payload Categories"
+  ]
+}

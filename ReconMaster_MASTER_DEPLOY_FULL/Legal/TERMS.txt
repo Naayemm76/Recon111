@@ -1,0 +1,6 @@
+RECONMASTER TERMS (Draft)
+1. Authorized Use Only. The software may only be used on systems and assets you own or where you have explicit written authorization.
+2. Scope Binding. Every project is bound to a defined scope. Actions outside scope are prohibited.
+3. Verification. Access to restricted functionality is granted only after manual verification and admin approval.
+4. Audit Trail. All actions are logged for accountability and compliance.
+5. No Misuse. Any misuse results in immediate access revocation.

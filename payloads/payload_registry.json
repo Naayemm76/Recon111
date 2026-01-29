@@ -1,0 +1,58 @@
+{
+  "Reverse Shells": [
+    {
+      "name": "Bash Reverse Shell",
+      "description": "Spawn an interactive shell back to listener (authorized tests only)."
+    },
+    {
+      "name": "Python Reverse Shell",
+      "description": "Python-based reverse connection for controlled testing."
+    },
+    {
+      "name": "PowerShell Reverse Shell",
+      "description": "Windows reverse shell via PowerShell (labs only)."
+    }
+  ],
+  "SQL Injection": [
+    {
+      "name": "Boolean-Based",
+      "description": "Test auth bypass logic using boolean conditions."
+    },
+    {
+      "name": "Time-Based",
+      "description": "Detect blind SQLi via response delays."
+    }
+  ],
+  "XSS": [
+    {
+      "name": "Reflected XSS",
+      "description": "Client-side script injection to test output encoding."
+    },
+    {
+      "name": "DOM XSS",
+      "description": "Injection through DOM sinks in client JS."
+    }
+  ],
+  "Command Injection": [
+    {
+      "name": "Blind Injection",
+      "description": "Time-based or OOB execution checks."
+    }
+  ],
+  "File Upload": [
+    {
+      "name": "Extension Bypass",
+      "description": "Test upload validation with extensions and MIME checks."
+    }
+  ],
+  "Logic Attacks": [
+    {
+      "name": "IDOR",
+      "description": "Object reference tampering across users."
+    },
+    {
+      "name": "Auth Bypass",
+      "description": "Missing/weak authorization checks."
+    }
+  ]
+}

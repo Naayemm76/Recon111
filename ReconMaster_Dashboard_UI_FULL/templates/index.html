@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ReconMaster Dashboard</title>
+    <meta charset="UTF-8" />
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; }
+        .sidebar {
+            position: fixed;
+            top: 0; left: 0; bottom: 0;
+            width: 240px;
+            background: #111;
+            color: #fff;
+            padding: 20px;
+        }
+        .sidebar h2 { color: #0f0; margin-top: 0; }
+        .sidebar button, .sidebar .project {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            background: #222;
+            color: #0f0;
+            border: 1px solid #333;
+            cursor: pointer;
+            text-align: left;
+        }
+        .main {
+            margin-left: 260px;
+            padding: 20px;
+        }
+        .top-bar {
+            background: #222;
+            color: #0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .tabs {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .tab {
+            background: #ccc;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .tab.active {
+            background: #0f0;
+            color: #000;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; font-weight: bold; }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #aaa;
+        }
+        button.run {
+            background: #0f0;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        pre {
+            background: #000;
+            color: #0f0;
+            padding: 10px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>ReconMaster</h2>
+        <button>+ New Project</button>
+        <div class="project">🗂 asfaf<br><small>Target: hubba.cc</small></div>
+        <div class="project">🛠 Own Framework<br><small>Target: hubba.cc</small></div>
+        <hr>
+        <button>Tool Config</button>
+    </div>
+
+    <div class="main">
+        <div class="top-bar">
+            Target: <strong>hubba.cc</strong> | Total: 0 | Critical: 0 | High: 0 | Medium: 0 | Low: 0 | INFO: 0
+        </div>
+
+        <div class="tabs">
+            <div class="tab active">Target Overview</div>
+            <div class="tab">Tool Results</div>
+            <div class="tab">Security Findings</div>
+        </div>
+
+        <div class="section">
+            <form action="/run_tool_ui" method="post">
+                <div class="form-group">
+                    <label for="tool">Tool:</label>
+                    <select name="tool" id="tool">
+                        {% for tool, meta in tools.items() %}
+                        <option value="{{ tool }}">{{ tool }} - {{ meta['description'] }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="target">Target:</label>
+                    <input type="text" name="target" required placeholder="example.com or IP" />
+                </div>
+                <button type="submit" class="run">Run Tool</button>
+            </form>
+        </div>
+
+        {% if result %}
+        <div class="section">
+            <h3>Result</h3>
+            <p><strong>Command:</strong> {{ result.command }}</p>
+            <p><strong>Status:</strong> {{ result.status }}</p>
+            <pre>{{ result.output_preview }}</pre>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

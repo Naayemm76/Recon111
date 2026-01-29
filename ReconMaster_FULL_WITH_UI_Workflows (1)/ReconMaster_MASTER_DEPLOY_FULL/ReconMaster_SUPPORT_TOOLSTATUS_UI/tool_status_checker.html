@@ -1,0 +1,34 @@
+
+<div class="tool-status-panel">
+  <h3>🧰 Tool Availability</h3>
+  <ul id="toolList"></ul>
+</div>
+
+<script>
+const tools = [
+  "nmap", "sqlmap", "ffuf", "burpsuite", "wpscan", "nuclei", "httpx", "amass", "dnsx", "linkfinder"
+];
+
+async function checkTool(tool) {
+  const res = await fetch(`/check-tool?name=${tool}`);
+  const data = await res.json();
+  return data.installed;
+}
+
+window.onload = async () => {
+  const toolList = document.getElementById("toolList");
+  for (const tool of tools) {
+    const li = document.createElement("li");
+    const installed = await checkTool(tool);
+    li.innerHTML = `${tool} <span style="color:${installed ? 'green' : 'red'};">●</span> ${
+      installed ? '' : `<button onclick="installTool('${tool}')">Install?</button>`
+    }`;
+    toolList.appendChild(li);
+  }
+};
+
+function installTool(tool) {
+  fetch(`/install-tool?name=${tool}`, { method: "POST" })
+    .then(() => alert(`${tool} installation started.`));
+}
+</script>

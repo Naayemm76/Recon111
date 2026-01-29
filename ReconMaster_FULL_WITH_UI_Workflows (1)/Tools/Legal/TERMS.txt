@@ -1,0 +1,14 @@
+TERMS OF USE (Draft)
+
+1) Authorized Use Only
+This software may only be used on systems and assets you own or have explicit written permission to assess.
+
+2) Scope
+All testing must remain within the project scope agreed between customer and admin.
+
+3) Responsibility
+User is responsible for compliance with applicable laws and contractual obligations.
+
+4) Logging
+Actions and results may be logged for audit and compliance.
+

@@ -1,0 +1,2 @@
+# requirements.txt
+# Placeholder for 2_RENDER_DEPLOY

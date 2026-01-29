@@ -1,0 +1,234 @@
+{
+  "nmap": {
+    "category": "Information Gathering",
+    "description": "Netzwerk- und Portscanner"
+  },
+  "masscan": {
+    "category": "Information Gathering",
+    "description": "Extrem schneller Portscanner"
+  },
+  "netdiscover": {
+    "category": "Information Gathering",
+    "description": "ARP-basierte Netzwerkerkennung"
+  },
+  "arp-scan": {
+    "category": "Information Gathering",
+    "description": "ARP-Scanner f\u00fcr lokale Netze"
+  },
+  "whois": {
+    "category": "Information Gathering",
+    "description": "Domain- und IP-Registrierungsabfragen"
+  },
+  "theharvester": {
+    "category": "Information Gathering",
+    "description": "OSINT-Sammlung (E-Mails, Hosts)"
+  },
+  "dnsenum": {
+    "category": "Information Gathering",
+    "description": "DNS-Aufz\u00e4hlung"
+  },
+  "dnsrecon": {
+    "category": "Information Gathering",
+    "description": "DNS-Reconnaissance"
+  },
+  "amass": {
+    "category": "Information Gathering",
+    "description": "OSINT & Asset Discovery"
+  },
+  "maltego": {
+    "category": "Social Engineering",
+    "description": "OSINT & Relationship Mapping"
+  },
+  "nikto": {
+    "category": "Vulnerability Scanning",
+    "description": "Webserver-Schwachstellen-Scanner"
+  },
+  "openvas": {
+    "category": "Vulnerability Scanning",
+    "description": "Umfassender Schwachstellen-Scanner"
+  },
+  "nessus": {
+    "category": "Vulnerability Scanning",
+    "description": "Vulnerability Management Scanner"
+  },
+  "wpscan": {
+    "category": "Vulnerability Scanning",
+    "description": "WordPress-Sicherheitsanalyse"
+  },
+  "sqlmap": {
+    "category": "Database Assessment",
+    "description": "SQL Injection Automation"
+  },
+  "burpsuite": {
+    "category": "Web Application Testing",
+    "description": "Intercepting Proxy & Scanner"
+  },
+  "owasp-zap": {
+    "category": "Web Application Testing",
+    "description": "Webscanner & Proxy"
+  },
+  "gobuster": {
+    "category": "Web Application Testing",
+    "description": "Directory/DNS Brute-Force"
+  },
+  "dirsearch": {
+    "category": "Web Application Testing",
+    "description": "Webpfad-Bruteforce"
+  },
+  "ffuf": {
+    "category": "Web Application Testing",
+    "description": "Fuzzer f\u00fcr Web-Parameter"
+  },
+  "wfuzz": {
+    "category": "Web Application Testing",
+    "description": "Web-Fuzzing-Tool"
+  },
+  "mdbtools": {
+    "category": "Database Assessment",
+    "description": "MS Access DB Tools"
+  },
+  "hydra": {
+    "category": "Password Attacks",
+    "description": "Online-Bruteforce-Tool"
+  },
+  "medusa": {
+    "category": "Password Attacks",
+    "description": "Login-Bruteforce"
+  },
+  "ncrack": {
+    "category": "Password Attacks",
+    "description": "Netzwerk-Auth-Bruteforce"
+  },
+  "hashcat": {
+    "category": "Password Attacks",
+    "description": "GPU-Passwort-Cracker"
+  },
+  "john": {
+    "category": "Password Attacks",
+    "description": "Passwort-Cracker"
+  },
+  "aircrack-ng": {
+    "category": "Wireless",
+    "description": "WLAN Security Suite"
+  },
+  "airodump-ng": {
+    "category": "Wireless",
+    "description": "WLAN Paket-Capture"
+  },
+  "aireplay-ng": {
+    "category": "Wireless",
+    "description": "WLAN Paket-Injektion"
+  },
+  "reaver": {
+    "category": "Wireless",
+    "description": "WPS-Bruteforce"
+  },
+  "bully": {
+    "category": "Wireless",
+    "description": "WPS-Angriffe"
+  },
+  "kismet": {
+    "category": "Wireless",
+    "description": "WLAN-Detektion & IDS"
+  },
+  "ghidra": {
+    "category": "Reverse Engineering",
+    "description": "Software-Analyse"
+  },
+  "radare2": {
+    "category": "Reverse Engineering",
+    "description": "Disassembler/Debugger"
+  },
+  "apktool": {
+    "category": "Reverse Engineering",
+    "description": "Android APK Analyse"
+  },
+  "jadx": {
+    "category": "Reverse Engineering",
+    "description": "DEX zu Java Decompiler"
+  },
+  "metasploit-framework": {
+    "category": "Exploitation",
+    "description": "Exploit-Framework"
+  },
+  "msfconsole": {
+    "category": "Exploitation",
+    "description": "Metasploit CLI"
+  },
+  "searchsploit": {
+    "category": "Exploitation",
+    "description": "Exploit-DB Suche"
+  },
+  "wireshark": {
+    "category": "Sniffing",
+    "description": "Netzwerkprotokoll-Analyse"
+  },
+  "tcpdump": {
+    "category": "Sniffing",
+    "description": "CLI Packet Capture"
+  },
+  "ettercap": {
+    "category": "MITM",
+    "description": "Man-in-the-Middle Tool"
+  },
+  "dsniff": {
+    "category": "MITM",
+    "description": "Passwort-Sniffing Suite"
+  },
+  "empire": {
+    "category": "Post Exploitation",
+    "description": "C2 Framework"
+  },
+  "beef-xss": {
+    "category": "Post Exploitation",
+    "description": "Browser Exploitation"
+  },
+  "powersploit": {
+    "category": "Post Exploitation",
+    "description": "PowerShell Post-Exploitation"
+  },
+  "autopsy": {
+    "category": "Forensics",
+    "description": "Digitale Forensik GUI"
+  },
+  "sleuthkit": {
+    "category": "Forensics",
+    "description": "Forensische Tools"
+  },
+  "volatility": {
+    "category": "Forensics",
+    "description": "RAM-Analyse"
+  },
+  "foremost": {
+    "category": "Forensics",
+    "description": "Datei-Recovery"
+  },
+  "setoolkit": {
+    "category": "Social Engineering",
+    "description": "SE-Angriffssimulation"
+  },
+  "dradis": {
+    "category": "Reporting",
+    "description": "Pentest-Berichte"
+  },
+  "faraday": {
+    "category": "Reporting",
+    "description": "Pentest Management"
+  },
+  "nuclei": {
+    "category": "Web Vulnerability Scanner",
+    "description": "Fast Template-Based Web Scanner"
+  },
+  "arjun": {
+    "category": "Web Application Testing",
+    "description": "HTTP Parameter Discovery Tool"
+  },
+  "theHarvester": {
+    "category": "Top Pentest Tools",
+    "description": "Emails, domains, and hosts gathering from OSINT sources"
+  },
+  "subfinder": {
+    "category": "Top Pentest Tools",
+    "description": "Fast subdomain discovery"
+  }
+}

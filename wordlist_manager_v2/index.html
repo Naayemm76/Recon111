@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🧠 Smart Wordlist + Paramset Manager</title>
+    <style>
+        body { font-family: Arial; margin: 30px; background: #f2f2f2; }
+        h1 { color: #333; }
+        table { width: 100%; border-collapse: collapse; background: #fff; margin-top: 20px; }
+        th, td { padding: 10px; border: 1px solid #ccc; }
+        th { background: #ddd; }
+        input[type="file"] { margin-top: 10px; }
+        select, input[type="checkbox"] { padding: 5px; }
+        .toggle { text-align: center; }
+        button { margin-top: 20px; padding: 10px 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<h1>🎯 Wordlist + Paramset Control Center</h1>
+
+<h2>📁 Wordlists</h2>
+<table>
+    <tr>
+        <th>File</th>
+        <th>Assign to Tool</th>
+        <th>Load in Workflow?</th>
+        <th>Upload Replacement</th>
+    </tr>
+    <tr>
+        <td>rockyou.txt</td>
+        <td>
+            <select>
+                <option selected>hydra</option>
+                <option>john</option>
+                <option>hashcat</option>
+            </select>
+        </td>
+        <td class="toggle"><input type="checkbox" checked></td>
+        <td><input type="file" accept=".txt"></td>
+    </tr>
+    <tr>
+        <td>dirbuster-common.txt</td>
+        <td>
+            <select>
+                <option>gobuster</option>
+                <option selected>ffuf</option>
+                <option>dirsearch</option>
+            </select>
+        </td>
+        <td class="toggle"><input type="checkbox" checked></td>
+        <td><input type="file" accept=".txt"></td>
+    </tr>
+    <tr>
+        <td>subdomains.txt</td>
+        <td>
+            <select>
+                <option selected>subfinder</option>
+                <option>amass</option>
+                <option>assetfinder</option>
+            </select>
+        </td>
+        <td class="toggle"><input type="checkbox"></td>
+        <td><input type="file" accept=".txt"></td>
+    </tr>
+</table>
+
+<h2>📂 Paramsets</h2>
+<table>
+    <tr>
+        <th>File</th>
+        <th>Assign to Tool</th>
+        <th>Load in Workflow?</th>
+        <th>Upload Replacement</th>
+    </tr>
+    <tr>
+        <td>common-params.json</td>
+        <td>
+            <select>
+                <option selected>arjun</option>
+                <option>burpsuite</option>
+                <option>ffuf</option>
+            </select>
+        </td>
+        <td class="toggle"><input type="checkbox" checked></td>
+        <td><input type="file" accept=".json"></td>
+    </tr>
+    <tr>
+        <td>api-routes.json</td>
+        <td>
+            <select>
+                <option selected>nuclei</option>
+                <option>burpsuite</option>
+                <option>ffuf</option>
+            </select>
+        </td>
+        <td class="toggle"><input type="checkbox"></td>
+        <td><input type="file" accept=".json"></td>
+    </tr>
+</table>
+
+<button onclick="alert('✅ Changes Saved (UI only – backend logic not yet active).')">💾 Save Settings</button>
+
+</body>
+</html>

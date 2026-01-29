@@ -1,0 +1,25 @@
+RECONMASTER – DISCLAIMER / HAFTUNGSHINWEIS
+
+Stand: 2026-01-24
+
+1. Zweck der Software
+ReconMaster ist eine Sicherheits‑ und Analyse‑Software zur Unterstützung von autorisierten Sicherheitsprüfungen. Die Software ist nicht für rechtswidrige Aktivitäten bestimmt.
+
+2. Keine Rechtsberatung
+Die bereitgestellten Texte, Hinweise und Reports stellen keine Rechtsberatung dar. Für rechtliche Bewertung ist der Nutzer verantwortlich.
+
+3. Technische Risiken
+Sicherheitsprüfungen können zu Systembeeinträchtigungen führen (z. B. Ausfälle, Datenverlust, Performance‑Einbußen). Der Nutzer trägt das Risiko der Durchführung und ist für geeignete Sicherungen (Backups, Testumgebungen, Rollback‑Pläne) verantwortlich.
+
+4. Beschränkung gefährlicher Funktionen
+Bestimmte Hochrisiko‑Funktionen sind gesperrt und werden nur nach zusätzlicher Verifikation und Admin‑Freigabe verfügbar. Eine Freigabe bedeutet keine Empfehlung zur Nutzung; die Verantwortung bleibt beim Nutzer.
+
+5. Keine Garantie auf Findings
+Die Software garantiert keine vollständige Erkennung von Schwachstellen. Ergebnisse können falsch‑positiv oder falsch‑negativ sein.
+
+6. Haftungsbegrenzung
+Soweit gesetzlich zulässig, ist die Haftung des Anbieters/Betreibers für mittelbare Schäden, entgangenen Gewinn und Folgeschäden ausgeschlossen. Gesetzliche Haftungstatbestände bleiben unberührt.
+
+7. Missbrauch
+Bei Verdacht auf Missbrauch kann der Zugang ohne Vorankündigung gesperrt werden. Logs können zur Aufklärung herangezogen werden.
+

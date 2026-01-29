@@ -1,0 +1,19 @@
+RECONMASTER – RECHTLICHER HINWEIS (LEGAL NOTICE)
+
+Stand: 2026-01-24
+
+WICHTIG: Die Nutzung dieser Software ist ausschließlich für:
+1) Sicherheitsprüfungen in eigener Umgebung/Unternehmen oder
+2) Sicherheitsprüfungen mit nachweislicher, schriftlicher Autorisierung des Rechteinhabers
+zulässig.
+
+Jede Nutzung außerhalb des zulässigen Scopes ist untersagt. Der Nutzer ist verpflichtet, vor jeder Prüfung den Scope festzulegen und sicherzustellen, dass eine gültige Autorisierung vorliegt.
+
+Hochrisiko‑Funktionen (z. B. Exploit-/Payload‑Funktionen, Brute‑Force, DoS, Credential‑Capture, Social Engineering) sind standardmäßig deaktiviert und erfordern:
+- zusätzliche Identitäts‑ und Eigentumsverifikation sowie
+- eine manuelle Admin‑Freigabe.
+
+Diese Software erstellt Audit‑Logs zur Nachweisführung, Sicherheit und Support. Ohne Logging ist die Nutzung bestimmter Funktionen nicht möglich.
+
+Bei Verstößen kann der Zugang gesperrt werden.
+

@@ -1,0 +1,1 @@
+This folder is part of the alerts module for ReconMaster PRO v2.0

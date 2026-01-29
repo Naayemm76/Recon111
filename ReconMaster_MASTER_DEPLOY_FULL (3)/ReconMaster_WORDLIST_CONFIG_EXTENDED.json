@@ -1,0 +1,46 @@
+{
+    "wordlists": {
+        "rockyou.txt": {
+            "tool": "hydra",
+            "autoload": true
+        },
+        "dirbuster-common.txt": {
+            "tool": "ffuf",
+            "autoload": true
+        },
+        "subdomains.txt": {
+            "tool": "subfinder",
+            "autoload": true
+        },
+        "fuzz-error-pages.txt": {
+            "tool": "dirsearch",
+            "autoload": true
+        },
+        "wordpress-usernames.txt": {
+            "tool": "wpscan",
+            "autoload": true
+        }
+    },
+    "paramsets": {
+        "api-routes.json": {
+            "tool": "nuclei",
+            "autoload": true
+        },
+        "common-params.json": {
+            "tool": "arjun",
+            "autoload": true
+        },
+        "js-finder-rules.json": {
+            "tool": "linkfinder",
+            "autoload": false
+        },
+        "headers-signatures.json": {
+            "tool": "httpx",
+            "autoload": false
+        },
+        "postman-test-suite.json": {
+            "tool": "postman",
+            "autoload": false
+        }
+    }
+}

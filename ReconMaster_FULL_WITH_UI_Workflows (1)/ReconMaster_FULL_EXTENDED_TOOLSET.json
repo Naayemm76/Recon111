@@ -1,0 +1,1216 @@
+{
+  "tools": [
+    {
+      "name": "Tool_1",
+      "category": "scanner",
+      "description": "Simulated tool 1 for category scanner.",
+      "commands": [
+        "tool_1 --option1",
+        "tool_1 --help"
+      ]
+    },
+    {
+      "name": "Tool_2",
+      "category": "scanner",
+      "description": "Simulated tool 2 for category scanner.",
+      "commands": [
+        "tool_2 --option1",
+        "tool_2 --help"
+      ]
+    },
+    {
+      "name": "Tool_3",
+      "category": "scanner",
+      "description": "Simulated tool 3 for category scanner.",
+      "commands": [
+        "tool_3 --option1",
+        "tool_3 --help"
+      ]
+    },
+    {
+      "name": "Tool_4",
+      "category": "scanner",
+      "description": "Simulated tool 4 for category scanner.",
+      "commands": [
+        "tool_4 --option1",
+        "tool_4 --help"
+      ]
+    },
+    {
+      "name": "Tool_5",
+      "category": "scanner",
+      "description": "Simulated tool 5 for category scanner.",
+      "commands": [
+        "tool_5 --option1",
+        "tool_5 --help"
+      ]
+    },
+    {
+      "name": "Tool_6",
+      "category": "scanner",
+      "description": "Simulated tool 6 for category scanner.",
+      "commands": [
+        "tool_6 --option1",
+        "tool_6 --help"
+      ]
+    },
+    {
+      "name": "Tool_7",
+      "category": "scanner",
+      "description": "Simulated tool 7 for category scanner.",
+      "commands": [
+        "tool_7 --option1",
+        "tool_7 --help"
+      ]
+    },
+    {
+      "name": "Tool_8",
+      "category": "scanner",
+      "description": "Simulated tool 8 for category scanner.",
+      "commands": [
+        "tool_8 --option1",
+        "tool_8 --help"
+      ]
+    },
+    {
+      "name": "Tool_9",
+      "category": "scanner",
+      "description": "Simulated tool 9 for category scanner.",
+      "commands": [
+        "tool_9 --option1",
+        "tool_9 --help"
+      ]
+    },
+    {
+      "name": "Tool_10",
+      "category": "scanner",
+      "description": "Simulated tool 10 for category scanner.",
+      "commands": [
+        "tool_10 --option1",
+        "tool_10 --help"
+      ]
+    },
+    {
+      "name": "Tool_11",
+      "category": "scanner",
+      "description": "Simulated tool 11 for category scanner.",
+      "commands": [
+        "tool_11 --option1",
+        "tool_11 --help"
+      ]
+    },
+    {
+      "name": "Tool_12",
+      "category": "scanner",
+      "description": "Simulated tool 12 for category scanner.",
+      "commands": [
+        "tool_12 --option1",
+        "tool_12 --help"
+      ]
+    },
+    {
+      "name": "Tool_13",
+      "category": "scanner",
+      "description": "Simulated tool 13 for category scanner.",
+      "commands": [
+        "tool_13 --option1",
+        "tool_13 --help"
+      ]
+    },
+    {
+      "name": "Tool_14",
+      "category": "scanner",
+      "description": "Simulated tool 14 for category scanner.",
+      "commands": [
+        "tool_14 --option1",
+        "tool_14 --help"
+      ]
+    },
+    {
+      "name": "Tool_15",
+      "category": "scanner",
+      "description": "Simulated tool 15 for category scanner.",
+      "commands": [
+        "tool_15 --option1",
+        "tool_15 --help"
+      ]
+    },
+    {
+      "name": "Tool_16",
+      "category": "scanner",
+      "description": "Simulated tool 16 for category scanner.",
+      "commands": [
+        "tool_16 --option1",
+        "tool_16 --help"
+      ]
+    },
+    {
+      "name": "Tool_17",
+      "category": "scanner",
+      "description": "Simulated tool 17 for category scanner.",
+      "commands": [
+        "tool_17 --option1",
+        "tool_17 --help"
+      ]
+    },
+    {
+      "name": "Tool_18",
+      "category": "scanner",
+      "description": "Simulated tool 18 for category scanner.",
+      "commands": [
+        "tool_18 --option1",
+        "tool_18 --help"
+      ]
+    },
+    {
+      "name": "Tool_19",
+      "category": "scanner",
+      "description": "Simulated tool 19 for category scanner.",
+      "commands": [
+        "tool_19 --option1",
+        "tool_19 --help"
+      ]
+    },
+    {
+      "name": "Tool_20",
+      "category": "scanner",
+      "description": "Simulated tool 20 for category scanner.",
+      "commands": [
+        "tool_20 --option1",
+        "tool_20 --help"
+      ]
+    },
+    {
+      "name": "Tool_21",
+      "category": "scanner",
+      "description": "Simulated tool 21 for category scanner.",
+      "commands": [
+        "tool_21 --option1",
+        "tool_21 --help"
+      ]
+    },
+    {
+      "name": "Tool_22",
+      "category": "scanner",
+      "description": "Simulated tool 22 for category scanner.",
+      "commands": [
+        "tool_22 --option1",
+        "tool_22 --help"
+      ]
+    },
+    {
+      "name": "Tool_23",
+      "category": "scanner",
+      "description": "Simulated tool 23 for category scanner.",
+      "commands": [
+        "tool_23 --option1",
+        "tool_23 --help"
+      ]
+    },
+    {
+      "name": "Tool_24",
+      "category": "scanner",
+      "description": "Simulated tool 24 for category scanner.",
+      "commands": [
+        "tool_24 --option1",
+        "tool_24 --help"
+      ]
+    },
+    {
+      "name": "Tool_25",
+      "category": "scanner",
+      "description": "Simulated tool 25 for category scanner.",
+      "commands": [
+        "tool_25 --option1",
+        "tool_25 --help"
+      ]
+    },
+    {
+      "name": "Tool_26",
+      "category": "scanner",
+      "description": "Simulated tool 26 for category scanner.",
+      "commands": [
+        "tool_26 --option1",
+        "tool_26 --help"
+      ]
+    },
+    {
+      "name": "Tool_27",
+      "category": "scanner",
+      "description": "Simulated tool 27 for category scanner.",
+      "commands": [
+        "tool_27 --option1",
+        "tool_27 --help"
+      ]
+    },
+    {
+      "name": "Tool_28",
+      "category": "scanner",
+      "description": "Simulated tool 28 for category scanner.",
+      "commands": [
+        "tool_28 --option1",
+        "tool_28 --help"
+      ]
+    },
+    {
+      "name": "Tool_29",
+      "category": "scanner",
+      "description": "Simulated tool 29 for category scanner.",
+      "commands": [
+        "tool_29 --option1",
+        "tool_29 --help"
+      ]
+    },
+    {
+      "name": "Tool_30",
+      "category": "scanner",
+      "description": "Simulated tool 30 for category scanner.",
+      "commands": [
+        "tool_30 --option1",
+        "tool_30 --help"
+      ]
+    },
+    {
+      "name": "Tool_31",
+      "category": "scanner",
+      "description": "Simulated tool 31 for category scanner.",
+      "commands": [
+        "tool_31 --option1",
+        "tool_31 --help"
+      ]
+    },
+    {
+      "name": "Tool_32",
+      "category": "scanner",
+      "description": "Simulated tool 32 for category scanner.",
+      "commands": [
+        "tool_32 --option1",
+        "tool_32 --help"
+      ]
+    },
+    {
+      "name": "Tool_33",
+      "category": "scanner",
+      "description": "Simulated tool 33 for category scanner.",
+      "commands": [
+        "tool_33 --option1",
+        "tool_33 --help"
+      ]
+    },
+    {
+      "name": "Tool_34",
+      "category": "scanner",
+      "description": "Simulated tool 34 for category scanner.",
+      "commands": [
+        "tool_34 --option1",
+        "tool_34 --help"
+      ]
+    },
+    {
+      "name": "Tool_35",
+      "category": "scanner",
+      "description": "Simulated tool 35 for category scanner.",
+      "commands": [
+        "tool_35 --option1",
+        "tool_35 --help"
+      ]
+    },
+    {
+      "name": "Tool_36",
+      "category": "scanner",
+      "description": "Simulated tool 36 for category scanner.",
+      "commands": [
+        "tool_36 --option1",
+        "tool_36 --help"
+      ]
+    },
+    {
+      "name": "Tool_37",
+      "category": "scanner",
+      "description": "Simulated tool 37 for category scanner.",
+      "commands": [
+        "tool_37 --option1",
+        "tool_37 --help"
+      ]
+    },
+    {
+      "name": "Tool_38",
+      "category": "scanner",
+      "description": "Simulated tool 38 for category scanner.",
+      "commands": [
+        "tool_38 --option1",
+        "tool_38 --help"
+      ]
+    },
+    {
+      "name": "Tool_39",
+      "category": "scanner",
+      "description": "Simulated tool 39 for category scanner.",
+      "commands": [
+        "tool_39 --option1",
+        "tool_39 --help"
+      ]
+    },
+    {
+      "name": "Tool_40",
+      "category": "scanner",
+      "description": "Simulated tool 40 for category scanner.",
+      "commands": [
+        "tool_40 --option1",
+        "tool_40 --help"
+      ]
+    },
+    {
+      "name": "Tool_41",
+      "category": "scanner",
+      "description": "Simulated tool 41 for category scanner.",
+      "commands": [
+        "tool_41 --option1",
+        "tool_41 --help"
+      ]
+    },
+    {
+      "name": "Tool_42",
+      "category": "scanner",
+      "description": "Simulated tool 42 for category scanner.",
+      "commands": [
+        "tool_42 --option1",
+        "tool_42 --help"
+      ]
+    },
+    {
+      "name": "Tool_43",
+      "category": "scanner",
+      "description": "Simulated tool 43 for category scanner.",
+      "commands": [
+        "tool_43 --option1",
+        "tool_43 --help"
+      ]
+    },
+    {
+      "name": "Tool_44",
+      "category": "scanner",
+      "description": "Simulated tool 44 for category scanner.",
+      "commands": [
+        "tool_44 --option1",
+        "tool_44 --help"
+      ]
+    },
+    {
+      "name": "Tool_45",
+      "category": "scanner",
+      "description": "Simulated tool 45 for category scanner.",
+      "commands": [
+        "tool_45 --option1",
+        "tool_45 --help"
+      ]
+    },
+    {
+      "name": "Tool_46",
+      "category": "scanner",
+      "description": "Simulated tool 46 for category scanner.",
+      "commands": [
+        "tool_46 --option1",
+        "tool_46 --help"
+      ]
+    },
+    {
+      "name": "Tool_47",
+      "category": "scanner",
+      "description": "Simulated tool 47 for category scanner.",
+      "commands": [
+        "tool_47 --option1",
+        "tool_47 --help"
+      ]
+    },
+    {
+      "name": "Tool_48",
+      "category": "scanner",
+      "description": "Simulated tool 48 for category scanner.",
+      "commands": [
+        "tool_48 --option1",
+        "tool_48 --help"
+      ]
+    },
+    {
+      "name": "Tool_49",
+      "category": "scanner",
+      "description": "Simulated tool 49 for category scanner.",
+      "commands": [
+        "tool_49 --option1",
+        "tool_49 --help"
+      ]
+    },
+    {
+      "name": "Tool_50",
+      "category": "scanner",
+      "description": "Simulated tool 50 for category scanner.",
+      "commands": [
+        "tool_50 --option1",
+        "tool_50 --help"
+      ]
+    },
+    {
+      "name": "Tool_51",
+      "category": "fuzzer",
+      "description": "Simulated tool 51 for category fuzzer.",
+      "commands": [
+        "tool_51 --option1",
+        "tool_51 --help"
+      ]
+    },
+    {
+      "name": "Tool_52",
+      "category": "fuzzer",
+      "description": "Simulated tool 52 for category fuzzer.",
+      "commands": [
+        "tool_52 --option1",
+        "tool_52 --help"
+      ]
+    },
+    {
+      "name": "Tool_53",
+      "category": "fuzzer",
+      "description": "Simulated tool 53 for category fuzzer.",
+      "commands": [
+        "tool_53 --option1",
+        "tool_53 --help"
+      ]
+    },
+    {
+      "name": "Tool_54",
+      "category": "fuzzer",
+      "description": "Simulated tool 54 for category fuzzer.",
+      "commands": [
+        "tool_54 --option1",
+        "tool_54 --help"
+      ]
+    },
+    {
+      "name": "Tool_55",
+      "category": "fuzzer",
+      "description": "Simulated tool 55 for category fuzzer.",
+      "commands": [
+        "tool_55 --option1",
+        "tool_55 --help"
+      ]
+    },
+    {
+      "name": "Tool_56",
+      "category": "fuzzer",
+      "description": "Simulated tool 56 for category fuzzer.",
+      "commands": [
+        "tool_56 --option1",
+        "tool_56 --help"
+      ]
+    },
+    {
+      "name": "Tool_57",
+      "category": "fuzzer",
+      "description": "Simulated tool 57 for category fuzzer.",
+      "commands": [
+        "tool_57 --option1",
+        "tool_57 --help"
+      ]
+    },
+    {
+      "name": "Tool_58",
+      "category": "fuzzer",
+      "description": "Simulated tool 58 for category fuzzer.",
+      "commands": [
+        "tool_58 --option1",
+        "tool_58 --help"
+      ]
+    },
+    {
+      "name": "Tool_59",
+      "category": "fuzzer",
+      "description": "Simulated tool 59 for category fuzzer.",
+      "commands": [
+        "tool_59 --option1",
+        "tool_59 --help"
+      ]
+    },
+    {
+      "name": "Tool_60",
+      "category": "fuzzer",
+      "description": "Simulated tool 60 for category fuzzer.",
+      "commands": [
+        "tool_60 --option1",
+        "tool_60 --help"
+      ]
+    },
+    {
+      "name": "Tool_61",
+      "category": "fuzzer",
+      "description": "Simulated tool 61 for category fuzzer.",
+      "commands": [
+        "tool_61 --option1",
+        "tool_61 --help"
+      ]
+    },
+    {
+      "name": "Tool_62",
+      "category": "fuzzer",
+      "description": "Simulated tool 62 for category fuzzer.",
+      "commands": [
+        "tool_62 --option1",
+        "tool_62 --help"
+      ]
+    },
+    {
+      "name": "Tool_63",
+      "category": "fuzzer",
+      "description": "Simulated tool 63 for category fuzzer.",
+      "commands": [
+        "tool_63 --option1",
+        "tool_63 --help"
+      ]
+    },
+    {
+      "name": "Tool_64",
+      "category": "fuzzer",
+      "description": "Simulated tool 64 for category fuzzer.",
+      "commands": [
+        "tool_64 --option1",
+        "tool_64 --help"
+      ]
+    },
+    {
+      "name": "Tool_65",
+      "category": "fuzzer",
+      "description": "Simulated tool 65 for category fuzzer.",
+      "commands": [
+        "tool_65 --option1",
+        "tool_65 --help"
+      ]
+    },
+    {
+      "name": "Tool_66",
+      "category": "fuzzer",
+      "description": "Simulated tool 66 for category fuzzer.",
+      "commands": [
+        "tool_66 --option1",
+        "tool_66 --help"
+      ]
+    },
+    {
+      "name": "Tool_67",
+      "category": "fuzzer",
+      "description": "Simulated tool 67 for category fuzzer.",
+      "commands": [
+        "tool_67 --option1",
+        "tool_67 --help"
+      ]
+    },
+    {
+      "name": "Tool_68",
+      "category": "fuzzer",
+      "description": "Simulated tool 68 for category fuzzer.",
+      "commands": [
+        "tool_68 --option1",
+        "tool_68 --help"
+      ]
+    },
+    {
+      "name": "Tool_69",
+      "category": "fuzzer",
+      "description": "Simulated tool 69 for category fuzzer.",
+      "commands": [
+        "tool_69 --option1",
+        "tool_69 --help"
+      ]
+    },
+    {
+      "name": "Tool_70",
+      "category": "fuzzer",
+      "description": "Simulated tool 70 for category fuzzer.",
+      "commands": [
+        "tool_70 --option1",
+        "tool_70 --help"
+      ]
+    },
+    {
+      "name": "Tool_71",
+      "category": "fuzzer",
+      "description": "Simulated tool 71 for category fuzzer.",
+      "commands": [
+        "tool_71 --option1",
+        "tool_71 --help"
+      ]
+    },
+    {
+      "name": "Tool_72",
+      "category": "fuzzer",
+      "description": "Simulated tool 72 for category fuzzer.",
+      "commands": [
+        "tool_72 --option1",
+        "tool_72 --help"
+      ]
+    },
+    {
+      "name": "Tool_73",
+      "category": "fuzzer",
+      "description": "Simulated tool 73 for category fuzzer.",
+      "commands": [
+        "tool_73 --option1",
+        "tool_73 --help"
+      ]
+    },
+    {
+      "name": "Tool_74",
+      "category": "fuzzer",
+      "description": "Simulated tool 74 for category fuzzer.",
+      "commands": [
+        "tool_74 --option1",
+        "tool_74 --help"
+      ]
+    },
+    {
+      "name": "Tool_75",
+      "category": "fuzzer",
+      "description": "Simulated tool 75 for category fuzzer.",
+      "commands": [
+        "tool_75 --option1",
+        "tool_75 --help"
+      ]
+    },
+    {
+      "name": "Tool_76",
+      "category": "account_takeover",
+      "description": "Simulated tool 76 for category account_takeover.",
+      "commands": [
+        "tool_76 --option1",
+        "tool_76 --help"
+      ]
+    },
+    {
+      "name": "Tool_77",
+      "category": "account_takeover",
+      "description": "Simulated tool 77 for category account_takeover.",
+      "commands": [
+        "tool_77 --option1",
+        "tool_77 --help"
+      ]
+    },
+    {
+      "name": "Tool_78",
+      "category": "account_takeover",
+      "description": "Simulated tool 78 for category account_takeover.",
+      "commands": [
+        "tool_78 --option1",
+        "tool_78 --help"
+      ]
+    },
+    {
+      "name": "Tool_79",
+      "category": "account_takeover",
+      "description": "Simulated tool 79 for category account_takeover.",
+      "commands": [
+        "tool_79 --option1",
+        "tool_79 --help"
+      ]
+    },
+    {
+      "name": "Tool_80",
+      "category": "account_takeover",
+      "description": "Simulated tool 80 for category account_takeover.",
+      "commands": [
+        "tool_80 --option1",
+        "tool_80 --help"
+      ]
+    },
+    {
+      "name": "Tool_81",
+      "category": "account_takeover",
+      "description": "Simulated tool 81 for category account_takeover.",
+      "commands": [
+        "tool_81 --option1",
+        "tool_81 --help"
+      ]
+    },
+    {
+      "name": "Tool_82",
+      "category": "account_takeover",
+      "description": "Simulated tool 82 for category account_takeover.",
+      "commands": [
+        "tool_82 --option1",
+        "tool_82 --help"
+      ]
+    },
+    {
+      "name": "Tool_83",
+      "category": "account_takeover",
+      "description": "Simulated tool 83 for category account_takeover.",
+      "commands": [
+        "tool_83 --option1",
+        "tool_83 --help"
+      ]
+    },
+    {
+      "name": "Tool_84",
+      "category": "account_takeover",
+      "description": "Simulated tool 84 for category account_takeover.",
+      "commands": [
+        "tool_84 --option1",
+        "tool_84 --help"
+      ]
+    },
+    {
+      "name": "Tool_85",
+      "category": "account_takeover",
+      "description": "Simulated tool 85 for category account_takeover.",
+      "commands": [
+        "tool_85 --option1",
+        "tool_85 --help"
+      ]
+    },
+    {
+      "name": "Tool_86",
+      "category": "account_takeover",
+      "description": "Simulated tool 86 for category account_takeover.",
+      "commands": [
+        "tool_86 --option1",
+        "tool_86 --help"
+      ]
+    },
+    {
+      "name": "Tool_87",
+      "category": "account_takeover",
+      "description": "Simulated tool 87 for category account_takeover.",
+      "commands": [
+        "tool_87 --option1",
+        "tool_87 --help"
+      ]
+    },
+    {
+      "name": "Tool_88",
+      "category": "account_takeover",
+      "description": "Simulated tool 88 for category account_takeover.",
+      "commands": [
+        "tool_88 --option1",
+        "tool_88 --help"
+      ]
+    },
+    {
+      "name": "Tool_89",
+      "category": "account_takeover",
+      "description": "Simulated tool 89 for category account_takeover.",
+      "commands": [
+        "tool_89 --option1",
+        "tool_89 --help"
+      ]
+    },
+    {
+      "name": "Tool_90",
+      "category": "account_takeover",
+      "description": "Simulated tool 90 for category account_takeover.",
+      "commands": [
+        "tool_90 --option1",
+        "tool_90 --help"
+      ]
+    },
+    {
+      "name": "Tool_91",
+      "category": "downloaders",
+      "description": "Simulated tool 91 for category downloaders.",
+      "commands": [
+        "tool_91 --option1",
+        "tool_91 --help"
+      ]
+    },
+    {
+      "name": "Tool_92",
+      "category": "downloaders",
+      "description": "Simulated tool 92 for category downloaders.",
+      "commands": [
+        "tool_92 --option1",
+        "tool_92 --help"
+      ]
+    },
+    {
+      "name": "Tool_93",
+      "category": "downloaders",
+      "description": "Simulated tool 93 for category downloaders.",
+      "commands": [
+        "tool_93 --option1",
+        "tool_93 --help"
+      ]
+    },
+    {
+      "name": "Tool_94",
+      "category": "downloaders",
+      "description": "Simulated tool 94 for category downloaders.",
+      "commands": [
+        "tool_94 --option1",
+        "tool_94 --help"
+      ]
+    },
+    {
+      "name": "Tool_95",
+      "category": "downloaders",
+      "description": "Simulated tool 95 for category downloaders.",
+      "commands": [
+        "tool_95 --option1",
+        "tool_95 --help"
+      ]
+    },
+    {
+      "name": "Tool_96",
+      "category": "downloaders",
+      "description": "Simulated tool 96 for category downloaders.",
+      "commands": [
+        "tool_96 --option1",
+        "tool_96 --help"
+      ]
+    },
+    {
+      "name": "Tool_97",
+      "category": "downloaders",
+      "description": "Simulated tool 97 for category downloaders.",
+      "commands": [
+        "tool_97 --option1",
+        "tool_97 --help"
+      ]
+    },
+    {
+      "name": "Tool_98",
+      "category": "downloaders",
+      "description": "Simulated tool 98 for category downloaders.",
+      "commands": [
+        "tool_98 --option1",
+        "tool_98 --help"
+      ]
+    },
+    {
+      "name": "Tool_99",
+      "category": "downloaders",
+      "description": "Simulated tool 99 for category downloaders.",
+      "commands": [
+        "tool_99 --option1",
+        "tool_99 --help"
+      ]
+    },
+    {
+      "name": "Tool_100",
+      "category": "downloaders",
+      "description": "Simulated tool 100 for category downloaders.",
+      "commands": [
+        "tool_100 --option1",
+        "tool_100 --help"
+      ]
+    }
+  ],
+  "payloads": [
+    {
+      "id": "payload_1",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 1"
+    },
+    {
+      "id": "payload_2",
+      "type": "lfi",
+      "content": "../../etc/passwd#2"
+    },
+    {
+      "id": "payload_3",
+      "type": "xss",
+      "content": "<script>alert(3)</script>"
+    },
+    {
+      "id": "payload_4",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 4"
+    },
+    {
+      "id": "payload_5",
+      "type": "lfi",
+      "content": "../../etc/passwd#5"
+    },
+    {
+      "id": "payload_6",
+      "type": "xss",
+      "content": "<script>alert(6)</script>"
+    },
+    {
+      "id": "payload_7",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 7"
+    },
+    {
+      "id": "payload_8",
+      "type": "lfi",
+      "content": "../../etc/passwd#8"
+    },
+    {
+      "id": "payload_9",
+      "type": "xss",
+      "content": "<script>alert(9)</script>"
+    },
+    {
+      "id": "payload_10",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 10"
+    },
+    {
+      "id": "payload_11",
+      "type": "lfi",
+      "content": "../../etc/passwd#11"
+    },
+    {
+      "id": "payload_12",
+      "type": "xss",
+      "content": "<script>alert(12)</script>"
+    },
+    {
+      "id": "payload_13",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 13"
+    },
+    {
+      "id": "payload_14",
+      "type": "lfi",
+      "content": "../../etc/passwd#14"
+    },
+    {
+      "id": "payload_15",
+      "type": "xss",
+      "content": "<script>alert(15)</script>"
+    },
+    {
+      "id": "payload_16",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 16"
+    },
+    {
+      "id": "payload_17",
+      "type": "lfi",
+      "content": "../../etc/passwd#17"
+    },
+    {
+      "id": "payload_18",
+      "type": "xss",
+      "content": "<script>alert(18)</script>"
+    },
+    {
+      "id": "payload_19",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 19"
+    },
+    {
+      "id": "payload_20",
+      "type": "lfi",
+      "content": "../../etc/passwd#20"
+    },
+    {
+      "id": "payload_21",
+      "type": "xss",
+      "content": "<script>alert(21)</script>"
+    },
+    {
+      "id": "payload_22",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 22"
+    },
+    {
+      "id": "payload_23",
+      "type": "lfi",
+      "content": "../../etc/passwd#23"
+    },
+    {
+      "id": "payload_24",
+      "type": "xss",
+      "content": "<script>alert(24)</script>"
+    },
+    {
+      "id": "payload_25",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 25"
+    },
+    {
+      "id": "payload_26",
+      "type": "lfi",
+      "content": "../../etc/passwd#26"
+    },
+    {
+      "id": "payload_27",
+      "type": "xss",
+      "content": "<script>alert(27)</script>"
+    },
+    {
+      "id": "payload_28",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 28"
+    },
+    {
+      "id": "payload_29",
+      "type": "lfi",
+      "content": "../../etc/passwd#29"
+    },
+    {
+      "id": "payload_30",
+      "type": "xss",
+      "content": "<script>alert(30)</script>"
+    },
+    {
+      "id": "payload_31",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 31"
+    },
+    {
+      "id": "payload_32",
+      "type": "lfi",
+      "content": "../../etc/passwd#32"
+    },
+    {
+      "id": "payload_33",
+      "type": "xss",
+      "content": "<script>alert(33)</script>"
+    },
+    {
+      "id": "payload_34",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 34"
+    },
+    {
+      "id": "payload_35",
+      "type": "lfi",
+      "content": "../../etc/passwd#35"
+    },
+    {
+      "id": "payload_36",
+      "type": "xss",
+      "content": "<script>alert(36)</script>"
+    },
+    {
+      "id": "payload_37",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 37"
+    },
+    {
+      "id": "payload_38",
+      "type": "lfi",
+      "content": "../../etc/passwd#38"
+    },
+    {
+      "id": "payload_39",
+      "type": "xss",
+      "content": "<script>alert(39)</script>"
+    },
+    {
+      "id": "payload_40",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 40"
+    },
+    {
+      "id": "payload_41",
+      "type": "lfi",
+      "content": "../../etc/passwd#41"
+    },
+    {
+      "id": "payload_42",
+      "type": "xss",
+      "content": "<script>alert(42)</script>"
+    },
+    {
+      "id": "payload_43",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 43"
+    },
+    {
+      "id": "payload_44",
+      "type": "lfi",
+      "content": "../../etc/passwd#44"
+    },
+    {
+      "id": "payload_45",
+      "type": "xss",
+      "content": "<script>alert(45)</script>"
+    },
+    {
+      "id": "payload_46",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 46"
+    },
+    {
+      "id": "payload_47",
+      "type": "lfi",
+      "content": "../../etc/passwd#47"
+    },
+    {
+      "id": "payload_48",
+      "type": "xss",
+      "content": "<script>alert(48)</script>"
+    },
+    {
+      "id": "payload_49",
+      "type": "sqli",
+      "content": "' OR '1'='1' -- 49"
+    },
+    {
+      "id": "payload_50",
+      "type": "lfi",
+      "content": "../../etc/passwd#50"
+    }
+  ],
+  "categories": {
+    "fuzzer": [
+      "Tool_51",
+      "Tool_52",
+      "Tool_53",
+      "Tool_54",
+      "Tool_55",
+      "Tool_56",
+      "Tool_57",
+      "Tool_58",
+      "Tool_59",
+      "Tool_60",
+      "Tool_61",
+      "Tool_62",
+      "Tool_63",
+      "Tool_64",
+      "Tool_65",
+      "Tool_66",
+      "Tool_67",
+      "Tool_68",
+      "Tool_69",
+      "Tool_70",
+      "Tool_71",
+      "Tool_72",
+      "Tool_73",
+      "Tool_74",
+      "Tool_75"
+    ],
+    "downloaders": [
+      "Tool_91",
+      "Tool_92",
+      "Tool_93",
+      "Tool_94",
+      "Tool_95",
+      "Tool_96",
+      "Tool_97",
+      "Tool_98",
+      "Tool_99",
+      "Tool_100"
+    ],
+    "scanners": [],
+    "account_takeover": [
+      "Tool_76",
+      "Tool_77",
+      "Tool_78",
+      "Tool_79",
+      "Tool_80",
+      "Tool_81",
+      "Tool_82",
+      "Tool_83",
+      "Tool_84",
+      "Tool_85",
+      "Tool_86",
+      "Tool_87",
+      "Tool_88",
+      "Tool_89",
+      "Tool_90"
+    ],
+    "xml_tools": []
+  }
+}

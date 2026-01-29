@@ -1,0 +1,17 @@
+{
+    "tools": [
+        "httpx",
+        "nuclei",
+        "ffuf"
+    ],
+    "workflows": {
+        "xss_scan": [
+            "httpx",
+            "nuclei -tags xss"
+        ],
+        "api_enum": [
+            "httpx",
+            "dnsx"
+        ]
+    }
+}

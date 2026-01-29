@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>ReconMaster – Dashboard</title>
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>Dashboard</h1>
+    <p class="muted">Angemeldet als: {{ user }}</p>
+
+    <div class="card">
+      <h2>Projekt erstellen</h2>
+      <form id="createForm">
+        <label>Projekt-ID</label>
+        <input name="project_id" placeholder="beispiel-projekt" required>
+        <label>Ziel-URL</label>
+        <input name="url" placeholder="https://example.com" required>
+        <button type="submit">Erstellen</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h2>Projekte</h2>
+      <ul id="plist">
+        {% for p in projects %}
+          <li>
+            <b>{{ p.project_id }}</b> – {{ p.status }}
+            <button onclick="runProject('{{ p.project_id }}')">Analyse starten</button>
+          </li>
+        {% endfor %}
+      </ul>
+      <pre id="out"></pre>
+    </div>
+  </div>
+
+<script>
+async function runProject(pid){
+  const fd = new FormData(); fd.append("project_id", pid);
+  const r = await fetch("/projects/run", {method:"POST", body:fd});
+  const j = await r.json();
+  document.getElementById("out").textContent = JSON.stringify(j, null, 2);
+}
+document.getElementById("createForm").addEventListener("submit", async (e)=>{
+  e.preventDefault();
+  const fd = new FormData(e.target);
+  const r = await fetch("/projects/create", {method:"POST", body:fd});
+  const j = await r.json();
+  if(j.ok){ location.reload(); } else { alert(j.error); }
+});
+</script>
+</body>
+</html>

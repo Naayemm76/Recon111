@@ -1,0 +1,2 @@
+# README_SELF_HOSTED.md
+# Placeholder for 1_SELF_HOSTED_DOCKER

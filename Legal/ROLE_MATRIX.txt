@@ -1,0 +1,34 @@
+RECONMASTER – ROLLENMATRIX (ÜBERSICHT)
+
+1. Admin
+- Nutzerverwaltung, Rollenvergabe, Freigaben
+- Projekt-/Ziel‑Freigabe
+- Einsicht in alle Logs/Reports
+- Hochrisiko‑Funktionen freischalten/entziehen
+
+2. Sub‑Admin
+- Nutzerverwaltung im delegierten Rahmen
+- Projektübersicht, Reports, Freigaben nach Policy
+- Keine System‑Policy‑Änderungen ohne Admin
+
+3. Moderator
+- Bearbeitet Anfragen (Verifikation, Freischaltung)
+- Sieht Status & Audit‑Trail
+- Keine Toolausführung
+
+4. Security Manager
+- Projekt-/Zielübersicht (pro Firma)
+- Live‑Monitoring der laufenden Analyse
+- Export von Reports (Scope‑abhängig)
+
+5. Self Tester
+- Nur „Analyse“ innerhalb 1 vorgegebenen Ziels
+- Keine Hochrisiko‑Funktionen
+- Zieltyp: Domain/URL oder Ordner/ZIP oder lokales Gerät (je nach Paket)
+
+6. Self Attacked
+- Wie Self Tester, plus „Incident‑Analyse“ (Warum wurde ich angegriffen?)
+- Kann Findings/Exploits nur als „Anzeige“ sehen
+- Nutzung/Verifikation für Hochrisiko‑Funktionen erforderlich
+
+Hinweis: Zielanzahl und Feature‑Set sind paketabhängig und können serverseitig begrenzt werden.

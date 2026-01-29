@@ -1,0 +1,26 @@
+{
+    "wordlists": {
+        "rockyou.txt": {
+            "tool": "hydra",
+            "autoload": true
+        },
+        "dirbuster-common.txt": {
+            "tool": "ffuf",
+            "autoload": true
+        },
+        "subdomains.txt": {
+            "tool": "subfinder",
+            "autoload": false
+        }
+    },
+    "paramsets": {
+        "common-params.json": {
+            "tool": "arjun",
+            "autoload": true
+        },
+        "api-routes.json": {
+            "tool": "nuclei",
+            "autoload": false
+        }
+    }
+}

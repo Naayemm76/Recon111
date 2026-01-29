@@ -1,0 +1,42 @@
+{
+  "en": {
+    "username": "Username",
+    "password": "Password",
+    "terms": "I accept the Terms and Conditions",
+    "login": "LOGIN",
+    "legal_error": "You MUST accept the terms.",
+    "access_granted": "Access granted",
+    "blocked": "Not approved. Admin notified.",
+    "missing_language": "Language missing? Press this button and the Admin will add it."
+  },
+  "de": {
+    "username": "Benutzername",
+    "password": "Passwort",
+    "terms": "Ich akzeptiere die Nutzungsbedingungen",
+    "login": "LOGIN",
+    "legal_error": "Du MUSST zustimmen.",
+    "access_granted": "Zugriff gewährt",
+    "blocked": "Nicht freigegeben. Admin informiert.",
+    "missing_language": "Sprache fehlt? Drücke diesen Button, Admin wird sie hinzufügen."
+  },
+  "fr": {
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "terms": "J'accepte les conditions",
+    "login": "CONNEXION",
+    "legal_error": "Vous devez accepter les conditions.",
+    "access_granted": "Accès autorisé",
+    "blocked": "Non approuvé. Admin notifié.",
+    "missing_language": "Langue manquante? Cliquez ici et l'admin l'ajoutera."
+  },
+  "es": {
+    "username": "Usuario",
+    "password": "Contraseña",
+    "terms": "Acepto los términos y condiciones",
+    "login": "INICIAR SESIÓN",
+    "legal_error": "Debes aceptar los términos.",
+    "access_granted": "Acceso concedido",
+    "blocked": "No aprobado. Admin notificado.",
+    "missing_language": "¿Falta el idioma? Presiona este botón y el Admin lo añadirá."
+  }
+}
